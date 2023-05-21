@@ -472,7 +472,6 @@ footer h4 {
 @media only screen and (min-width:1328px){
   body {
     margin-top: 8rem;
-		font-size: 1.5rem;
   }
 
 	.btn--primary {
@@ -480,27 +479,24 @@ footer h4 {
 	}
 
 	.header-texts {
-		margin: 17rem 0 !important;
+		margin: 12rem 0 !important;
 		padding: var(--padding-x);
 	}
 	.header-texts .text-title {
-		font-size: 10rem;
+		font-size: 8rem;
 	}
 	.header-texts h3 {
-		font-size: 5rem;
+		font-size: 4rem;
 	}
 	.text-title {
-		font-size: 8rem;
+		font-size: 6rem;
 	}
 
 	.box {
-		padding: 8rem;
+		padding: 6rem;
 	}
 	.box p {
-		font-size: 2rem;
-	}
-	.box .btn--primary {
-		font-size: 2rem;
+		font-size: 1.25rem;
 	}
 	#aboutMe, #promociones {
 		padding: var(--padding-x);
@@ -521,47 +517,38 @@ footer h4 {
 	}
 
 	.card-tratamientos {
-		min-height: 400px;
+		min-height: 300px;
 		margin-right: 2rem;
-		background-position-x: -500px;
+		background-position-x: -400px;
 		transition: all 0.35s ease-out !important;
 	}
 	.card-tratamientos:hover {
 		background-position-x: 0px;
 	}
 	.card-tratamientos-texts {
-		width: 500px;
+		width: 400px;
 	}
 	.card-tratamientos-title {
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 	.card-tratamientos-text {
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 	.card-tratamientos-texts p {
-		font-size: 1.75rem;
+		font-size: 1.25rem;
 	}
 
 	#contact {
 		margin-top: 2rem;
 	}
-	#contact .container {
-		max-width: 1920px;
-	}
 
-	.form-control {
-		line-height: 3.5;
-		font-size: 1.25rem;
-	}
-	
 	#contactForm .form-left {
 		margin-top: 0;
 	}
 	#contactForm .form-right {
-		margin-top: 3rem;
+		margin-top: 0rem;
 	}
-	
-	footer h4 {
+	#contactForm .btn--primary {
 		font-size: 1.25rem;
 	}
 }
