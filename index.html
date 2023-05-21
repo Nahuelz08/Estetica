@@ -109,34 +109,34 @@
     <section id="tratamientos" data-aos="fade-up" data-aos-duration="1000">
       <div class="container-fluid">
         <div class="cards-container" data-aos="fade-right" data-aos-duration="1250">
-          <div class="card-tratamientos card-1">
+          <a href="#" class="card-tratamientos card-1">
             <div class="card-tratamientos-texts">
               <h3 class="card-tratamientos-title">Tratamiento</h3>
               <h4 class="card-tratamientos-text">Lorem Ipsum</h4>
               <p>VER MÁS -></p>
             </div>
-          </div>
-          <div class="card-tratamientos card-2" data-aos="fade-right" data-aos-duration="1250" data-aos-delay="250">
+          </a>
+          <a href="#" class="card-tratamientos card-2" data-aos="fade-right" data-aos-duration="1250" data-aos-delay="250">
             <div class="card-tratamientos-texts">
               <h3 class="card-tratamientos-title">Tratamiento</h3>
               <h4 class="card-tratamientos-text">Lorem Ipsum</h4>
               <p>VER MÁS -></p>
             </div>
-          </div>
-          <div class="card-tratamientos card-3" data-aos="fade-right" data-aos-duration="1250" data-aos-delay="500">
+          </a>
+          <a href="#" class="card-tratamientos card-3" data-aos="fade-right" data-aos-duration="1250" data-aos-delay="500">
             <div class="card-tratamientos-texts">
               <h3 class="card-tratamientos-title">Tratamiento</h3>
               <h4 class="card-tratamientos-text">Lorem Ipsum</h4>
               <p>VER MÁS -></p>
             </div>
-          </div>
-          <div class="card-tratamientos card-4" data-aos="fade-right" data-aos-duration="1250" data-aos-delay="500">
+          </a>
+          <a href="#" class="card-tratamientos card-4" data-aos="fade-right" data-aos-duration="1250" data-aos-delay="500">
             <div class="card-tratamientos-texts">
               <h3 class="card-tratamientos-title">Tratamiento</h3>
               <h4 class="card-tratamientos-text">Lorem Ipsum</h4>
               <p>VER MÁS -></p>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </section>
@@ -184,63 +184,41 @@
                   placeholder="Ej: josegonzales@gmail.com"
                 />
                 <small></small>
+              </div> 
+              <div class="input-container mb-3">
+                <label for="textareaInput" class="form-label">Mensaje:</label>
+                <textarea
+                  required
+                  value=""
+                  class="form-control"
+                  id="textareaInput"
+                  placeholder="Ej: Hola..."
+                  rows="3"
+                ></textarea>
+                <small></small>
               </div>
+              <button type="submit" class="btn btn--primary" id="btn-enviar">
+                Enviar
+              </button>
             </div>
             <div class="form-right">
-              <div class="form-contact-info">
-                <img
-                  src="./assets/img/phone-call.png"
-                  alt="Icono de teléfono"
-                />
-                <p>1156655896</p>
-              </div>
-              <div class="form-contact-info">
-                <img src="./assets/img/email.png" alt="Icono de email" />
-                <p>josegonzales@gmail.com</p>
-              </div>
-              <div class="form-contact-info">
-                <img src="./assets/img/whatsapp.png" alt="Icono de Whatsapp" />
-                <p>1156655896</p>
-              </div>
-              <div class="form-contact-info">
-                <img src="./assets/img/placeholder.png" alt="Icono de gps" />
-                <p>
-                  Av. Cordoba y Dr. Martín C. Martinez 00 - Cordón - Montevideo
-                  - Uruguay
-                </p>
+              <div style="width: 100%">
+                <iframe
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                  src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=patio%20olmos+(Estetica)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                  width="100%"
+                  height="600"
+                  frameborder="0"
+                  ><a href="https://www.maps.ie/distance-area-calculator.html"
+                    >area maps</a
+                  ></iframe
+                >
               </div>
             </div>
           </div>
-          <div class="input-container mb-3">
-            <label for="textareaInput" class="form-label">Mensaje:</label>
-            <textarea
-              required
-              value=""
-              class="form-control"
-              id="textareaInput"
-              placeholder="Ej: Hola..."
-              rows="3"
-            ></textarea>
-            <small></small>
-          </div>
-          <button type="submit" class="btn btn--primary" id="btn-enviar">
-            Enviar
-          </button>
         </form>
-        <div style="width: 100%">
-          <iframe
-            scrolling="no"
-            marginheight="0"
-            marginwidth="0"
-            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=patio%20olmos+(Estetica)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-            width="100%"
-            height="600"
-            frameborder="0"
-            ><a href="https://www.maps.ie/distance-area-calculator.html"
-              >area maps</a
-            ></iframe
-          >
-        </div>
       </div>
     </section>
 
@@ -249,15 +227,22 @@
       <section class="iconosContacto-container d-flex justify-content-evenly">
         <a href="#" target="_blank">
           <img src="./assets/img/phone-call.png" alt="Icono de teléfono" />
+          <p>1156655896</p>
         </a>
         <a href="#" target="_blank">
           <img src="./assets/img/email.png" alt="Icono de email" />
+          <p>josegonzales@gmail.com</p>
         </a>
         <a href="#" target="_blank">
           <img src="./assets/img/whatsapp.png" alt="Icono de Whatsapp" />
+          <p>1156655896</p>
         </a>
         <a href="#" target="_blank">
           <img src="./assets/img/placeholder.png" alt="Icono de gps" />
+          <p>
+            Av. Cordoba y Dr. Martín C. Martinez 00 - Cordón - Montevideo
+            - Uruguay
+          </p>
         </a>
       </section>
       <h4 class="text-center mt-4 px-2 fw-normal">
